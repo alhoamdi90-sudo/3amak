@@ -1,7 +1,7 @@
 herename: RDP
 on:
   workflow_dispatch:
-jobs:
+jobs: 
   secure-rdp:
     runs-on: windows-latest
     timeout-minutes: 3600
